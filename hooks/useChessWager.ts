@@ -37,7 +37,7 @@ export function useChessWager() {
     address: ADDR,
     abi: CHESS_ABI,
     functionName: "getOpenChallenges",
-    args: [1n, 20n],
+    args: [BigInt(1), BigInt(20)],
     query: { refetchInterval: 10000 },
   });
 

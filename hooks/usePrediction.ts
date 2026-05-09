@@ -93,7 +93,7 @@ export function useMarket(marketId: number) {
 
   if (!data) return { market: null, odds: null, refetch };
 
-  const [id, question, outcomes, deadline, status, winningOutcome, totalPool, outcomePools, category] = data as any[];
+  const [id, question, outcomes, deadline, status, winningOutcome, totalPool, outcomePools, category] = data as unknown as any[];
 
   return {
     market: {

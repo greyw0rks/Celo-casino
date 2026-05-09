@@ -26,7 +26,7 @@ export function useCrash() {
   const [cashedOut, setCashedOut] = useState(false);
   const [cashedOutAt, setCashedOutAt] = useState<number | null>(null);
   const [txHash, setTxHash] = useState<`0x${string}` | undefined>();
-  const intervalRef = useRef<NodeJS.Timeout>();
+  const intervalRef = useRef<ReturnType<typeof setInterval> | undefined>(undefined);
 
   const { needsApproval, approve, isApproving } = useTokenApproval(ADDR);
 
