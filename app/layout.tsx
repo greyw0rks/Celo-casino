@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "Crash, Prediction Markets, Chess Wager & Blackjack — powered by USDm on Celo",
   other: {
     // Talent Protocol verification (update with your actual meta tag)
-    "talent-verify": "your-talent-protocol-verification-token",
+    "talent-verify": "3a3da2faff10b6098fa503b18131121f856a0df5c7b7086162117c147757e99ac0178c8ecb4d41006874ec27c1c3c89cc1e0639e37c30954df19313fa2885bea",
   },
 };
 
