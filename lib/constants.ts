@@ -8,9 +8,9 @@ export const USDM_ADDRESS = "0x765DE816845861e75A25fCA122bb6898B8B1282a" as cons
 // Deploy these and update:
 export const CONTRACT_ADDRESSES = {
   crashGame:        "0x8ea586bb4ce9a104aa0c2b83707ff92bbb501059" as const, // TODO: deploy
-  predictionMarket: "0xbf6b285646e99dccdd939a7324ddd93286427240" as const, // TODO: deploy
-  chessWager:       "0xb3bd991bae73640ab436ba1a2b04e681ac631e9d" as const, // TODO: deploy
-  blackjack:        "0x989d42c08ea967efc81f29a0a5d249e89229cc2a" as const, // ✅ deployed
+  predictionMarket: "0xda1de2ad187cfef1b80a9896ec1915ed051c9693" as const, // TODO: deploy
+  chessWager:       "0x74cdef5b6fda93f2e669548a372f5338b76caa78" as const, // TODO: deploy
+  blackjack:        "0x72fb7312b53ef6e8ae8acb0c0b2a7d372f41c02f" as const, // ✅ deployed
 } as const;
 
 export const USDM_DECIMALS = 18;
