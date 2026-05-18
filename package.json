@@ -1,7 +1,20 @@
 {
-  "name": "celo-casino",
+  "name": "@greyw0rks/celo-casino",
   "version": "0.1.0",
-  "private": true,
+  "description": "Celo casino dApp — blackjack, chess, crash & prediction markets on MiniPay",
+  "private": false,
+  "files": [
+    "app",
+    "components",
+    "contracts",
+    "compiled",
+    "hooks",
+    "lib",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +22,13 @@
     "compile": "node compile.js",
     "deploy": "node deploy.js"
   },
+  "keywords": [
+    "celo", "minipay", "web3", "casino",
+    "blackjack", "chess", "crash", "prediction-market", "blockchain"
+  ],
+  "author": "greyw0rks",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
   "dependencies": {
     "@tanstack/react-query": "5.28.0",
     "chess.js": "1.0.0-beta.8",
@@ -27,5 +47,11 @@
     "solc": "^0.8.26",
     "tailwindcss": "3.4.3",
     "typescript": "^5.4.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/greyw0rks/Celo-casino.git"
+  },
+  "bugs": { "url": "https://github.com/greyw0rks/Celo-casino/issues" },
+  "homepage": "https://github.com/greyw0rks/Celo-casino#readme"
 }
